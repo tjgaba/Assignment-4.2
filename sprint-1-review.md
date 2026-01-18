@@ -41,4 +41,4 @@ NONE
   - Will recurring meetings be easy to edit or cancel after they’ve been created.
 
 - **Requests or adjustments**
-  - Improve the look and usability of the booking screen based on user feedback.
+  - Improve the look and usability of the booking sytem screen based on user feedback.
