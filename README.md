@@ -227,10 +227,10 @@ Here are a few examples of the branch names you can use;
 
 - `feature/<short-description>` – for new features or enhancements  
 - `bugfix/<short-description>` – for fixes to incorrect or unexpected behaviour  
-- `docs/<short-description>` – for documentation or artefact updates  
+- `docs/<short-description>` – for documentation or artefact updates
+- `issues/<short-description>` – for project related known issues 
 
 ---
-
 ## 🐞 Known Issues
 Some edge cases in the room availability and booking logic are not yet fully handled.
 
