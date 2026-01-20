@@ -55,7 +55,7 @@ By centralizing bookings and enforcing rules, the system improves efficiency, tr
 ## 🗂 Repository Contents
 The repository is organised as follows:
 
-.
+```
 ├── README.md
 │   Project overview, purpose, usage, and contribution guidelines
 │
@@ -108,7 +108,7 @@ The repository is organised as follows:
 │
 └── LICENSE
     Project licensing information
-
+```
 
 ---
 
@@ -133,21 +133,41 @@ On you local PC.
 
 4. On the VS Code terminal, type:
 
-- cd c://your-pc-user/folder-name[Assignment-4.2] (this navigates to the repo folder locally, or just click 'Open Folder' in the VS Code 'File' dropdown menu, after the file-explorer window opens, navigate, select and open the folder which you want to work on, then VS Code will open the directory for you to work on)
+cd c://your-pc-user/folder-name[Assignment-4.2] (this navigates to the repo folder locally, or just click 'Open Folder' in the VS Code 'File' dropdown menu, after the file-explorer window opens, navigate, select and open the folder which you want to work on, then VS Code will open the directory for you to work on)
 
--  type: git init (this will initialize/configure the folder for you then will be able to modify .gitFiles locally on your PC)
+type:
+```
+  git init
+```
+(this will initialize/configure the folder for you then will be able to modify .gitFiles locally on your PC)
 
--  type: git clone https://github.com/tjgaba/Assignment-4.2.git
+type:
+  ```
+    git clone https://github.com/tjgaba/Assignment-4.2.git
+   ```
+type: 
+```
+git remote remove origin
+```
+(this removes any link with the origional remote repo in GitHub. This helps if you are going to make changes on your local repo so that when you push, you push to tge forked repo you created. You can view and confirm this by typing 'git remote -v' on the local VS Code terminal. There should be nothing following the command) Note: You now can work on you project and make changes as you want locally.
 
--  type: git remote remove origin (this removes any link with the origional remote repo in GitHub. This helps if you are going to make changes on your local repo so that when you push, you push to tge forked repo you created. You can view and confirm this by typing 'git remote -v' on the local VS Code terminal. There should be nothing following the command) Note: You now can work on you project and make changes as you want locally.
+type: 
+```
+git add .
+```
+(This tracks all changes made on local repo on PC)
 
--  type: git add . (To track all changes made on local repo on PC)
+type: 
+```
+git commit -m "Put your detailed and clear message of the change here"
+```
+Create a new repository through GitHub with the same name created on your local PC repo/folder.
 
--  type: git commit -m "Put your detailed and clear message of the change here"
-
--  type: Create a new repository through GitHub with the same name created on your local PC repo/folder.
-
--  type: git push --set-upstream origin main (On VS Code terminal. This will push all changes and files from your local PC repo/folder to the remote repo)
+type: 
+```
+git push --set-upstream origin main
+```
+(On VS Code terminal. This will push all changes and files from your local PC repo/folder to the remote repo)
 
 Note: You the should be having all the files both locally and remotely so that any changes you do locally you could push to the romote repo. But remember to fork/create a branch of the Main repo/folder, make changes on it, then only after testing the code you could Pull Request the branch to the main branch.
 
@@ -247,10 +267,12 @@ This project is maintained by:
 
 - **Andile**    – Developer  
 Email:          masokaandile17@gmail.com
+
 - **Sillo**     – Developer  
-Email:          sillojunior8@gmail.com
-- **TJ**        - Developer
-Email:          tjgaba@outlook.com
+Email:          sillojunior8@gmail.com 
+
+- **TJ**        - Developer  
+Email:          tjgaba@outlook.com 
 
 They are responsible for reviewing pull requests, managing releases, and guiding the project direction.
 
